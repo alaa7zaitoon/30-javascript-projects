@@ -1,0 +1,32 @@
+@media screen and (min-width: 300px) and (max-width:640px){
+    .btns{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .btns button{
+        width: 45%;
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width:640px) and (max-width:900px){
+    .btns{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .btns button{
+        width: 30%;
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1090px){
+
+    .btns button{
+        margin-left: 10px;
+    }
+}
